@@ -19,7 +19,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wp-kitab
- * Domain Path:       /languages
+ * Domain Path:       languages
  */
 
 // prevent direct access to the plugin file
