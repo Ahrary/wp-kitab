@@ -74,16 +74,6 @@ if (!function_exists('wp_kitab_cpt')) {
 			'delete_with_user' => false,
 			'exclude_from_search' => false,
 			'capability_type' => 'post',
-			'capabilities' => [
-				'edit_post'          => 'edit_book',
-				'read_post'          => 'read_book',
-				'delete_post'        => 'delete_book',
-				'edit_posts'         => 'edit_books',
-				'edit_others_posts'  => 'edit_others_books',
-				'publish_posts'      => 'publish_books',
-				'read_private_posts' => 'read_private_books',
-				'create_posts'       => 'edit_books',
-			],
 			'map_meta_cap' => true,
 			'hierarchical' => true,
 			'rewrite' => ['slug' => 'book', 'with_front' => false],
@@ -420,8 +410,6 @@ function wp_kitab_update_title_and_excerpt($post_id)
 
 		// if $book_authors_names array has more than one name
 		// then return the first one
-		// and remove the last comma from name
-		// and add translatable string 'and others'
 		if (count($book_authors_names) > 1) {
 			$book_authors_names = [
 				$book_authors_names[0],
