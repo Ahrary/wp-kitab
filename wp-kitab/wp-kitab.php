@@ -74,8 +74,18 @@ if (!function_exists('wp_kitab_cpt')) {
 			'delete_with_user' => false,
 			'exclude_from_search' => false,
 			'capability_type' => 'post',
+			'capabilities' => [
+				'edit_post'          => 'edit_book',
+				'read_post'          => 'read_book',
+				'delete_post'        => 'delete_book',
+				'edit_posts'         => 'edit_books',
+				'edit_others_posts'  => 'edit_others_books',
+				'publish_posts'      => 'publish_books',
+				'read_private_posts' => 'read_private_books',
+				'create_posts'       => 'edit_books',
+			],
 			'map_meta_cap' => true,
-			'hierarchical' => false,
+			'hierarchical' => true,
 			'rewrite' => ['slug' => 'book', 'with_front' => false],
 			'query_var' => true,
 			'menu_position' => 5,
@@ -440,3 +450,11 @@ add_action('acf/save_post', function ($post_id) {
 		delete_post_meta($post_id, '_thumbnail_id');
 	}
 }, 11);
+
+
+// Flush rewrite rules
+register_activation_hook( __FILE__, 'wp_kitab_rewrite_flush' );
+function wp_kitab_rewrite_flush() {
+    wp_kitab_cpt();
+	flush_rewrite_rules();
+}
