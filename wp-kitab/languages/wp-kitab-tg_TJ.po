@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Kitab\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-01 16:50+0000\n"
+"PO-Revision-Date: 2022-01-02 07:46+0000\n"
+"Last-Translator: Ahrary\n"
+"Language-Team: Tajik (Tajikistan)\n"
+"Language: tg-TJ\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2\n"
+"X-Domain: wp-kitab"
+
+#: wp-kitab.php:42
+msgid "Add New"
+msgstr "Афзудан"
+
+#: wp-kitab.php:113
+msgid "Add New Author"
+msgstr "Афзудани Муаллиф"
+
+#: wp-kitab.php:41
+msgid "Add New Book"
+msgstr "Афзудани Китоб"
+
+#: wp-kitab.php:254
+msgid "Add New City"
+msgstr "Афзудани Шаҳр"
+
+#: wp-kitab.php:160
+msgid "Add New Genre"
+msgstr "Афзудани Жанр"
+
+#: wp-kitab.php:207
+msgid "Add New Language"
+msgstr "Афзудани Забон"
+
+#: wp-kitab.php:301
+msgid "Add New Publisher"
+msgstr "Афзудани Ношир"
+
+#: wp-kitab.php:348
+msgid "Add New Year"
+msgstr "Афзудани Сол"
+
+#: wp-kitab.php:118
+msgid "Add or remove authors"
+msgstr "Афзудан ё ҳазфи муаллифҳо"
+
+#: wp-kitab.php:259
+msgid "Add or remove cities"
+msgstr "Афзудан ё ҳазфи шаҳрҳо"
+
+#: wp-kitab.php:165
+msgid "Add or remove genres"
+msgstr "Афзудан ё ҳазфи жанрҳо"
+
+#: wp-kitab.php:212
+msgid "Add or remove languages"
+msgstr "Афзудан ё ҳазфи забонҳо"
+
+#: wp-kitab.php:306
+msgid "Add or remove publishers"
+msgstr "Афзудан ё ҳазфи ноширон"
+
+#: wp-kitab.php:353
+msgid "Add or remove years"
+msgstr "Афзудан ё ҳазфи солҳо"
+
+#. Author of the plugin
+msgid "Ahrary"
+msgstr "Аҳрорӣ"
+
+#: wp-kitab.php:109
+msgid "All Authors"
+msgstr "Ҳамаи Муаллифҳо"
+
+#: wp-kitab.php:40
+msgid "All Books"
+msgstr "Ҳамаи Китобҳо"
+
+#: wp-kitab.php:250
+msgid "All Cities"
+msgstr "Ҳамаи Шаҳрҳо"
+
+#: wp-kitab.php:156
+msgid "All Genres"
+msgstr "Ҳамаи Жанрҳо"
+
+#: wp-kitab.php:203
+msgid "All Languages"
+msgstr "Ҳамаи Забонҳо"
+
+#: wp-kitab.php:297
+msgid "All Publishers"
+msgstr "Ҳамаи Ноширон"
+
+#: wp-kitab.php:344
+msgid "All Years"
+msgstr "Ҳамаи Солҳо"
+
+#: wp-kitab.php:418
+msgid "and others"
+msgstr "ва диг."
+
+#: wp-kitab.php:108 wp-kitab.php:125
+msgid "Authors"
+msgstr "Муаллифҳо"
+
+#: wp-kitab.php:121
+msgid "Back to authors"
+msgstr "Баргашт ба муаллифҳо"
+
+#: wp-kitab.php:262
+msgid "Back to cities"
+msgstr "Баргашт ба шаҳрҳо"
+
+#: wp-kitab.php:168
+msgid "Back to genres"
+msgstr "Баргашт ба жанрҳо"
+
+#: wp-kitab.php:215
+msgid "Back to languages"
+msgstr "Баргашт ба забонҳо"
+
+#: wp-kitab.php:309
+msgid "Back to publishers"
+msgstr "Баргашт ба ноширон"
+
+#: wp-kitab.php:356
+msgid "Back to years"
+msgstr "Баргашт ба солҳо"
+
+#: wp-kitab.php:36 wp-kitab.php:62
+msgid "Book"
+msgstr "Китоб"
+
+#: wp-kitab.php:37
+msgid "Book Archives"
+msgstr "Бойгонии Китобҳо"
+
+#: wp-kitab.php:38
+msgid "Book Attributes"
+msgstr "Вежагиҳои Китоб"
+
+#: wp-kitab.php:35
+msgid "Books"
+msgstr "Китобҳо"
+
+#: wp-kitab.php:57
+msgid "Books list"
+msgstr "Феҳристи китобҳо"
+
+#: wp-kitab.php:58
+msgid "Books list navigation"
+msgstr "Паймоиши феҳристи китобҳо"
+
+#: wp-kitab.php:119
+msgid "Choose from the most used authors"
+msgstr "Аз миёни муаллифҳои пуркорбурд интихоб кунед"
+
+#: wp-kitab.php:260
+msgid "Choose from the most used cities"
+msgstr "Аз миёни шаҳрҳои пуркорбурд интихоб кунед"
+
+#: wp-kitab.php:166
+msgid "Choose from the most used genres"
+msgstr "Аз миёни жанрҳои пуркорбурд интихоб кунед"
+
+#: wp-kitab.php:213
+msgid "Choose from the most used languages"
+msgstr "Аз миёни забонҳои пуркорбурд интихоб кунед"
+
+#: wp-kitab.php:307
+msgid "Choose from the most used publishers"
+msgstr "Аз миёни ноширони пуркорбурд интихоб кунед"
+
+#: wp-kitab.php:354
+msgid "Choose from the most used years"
+msgstr "Аз миёни солҳои пуркорбурд интихоб кунед"
+
+#: wp-kitab.php:249 wp-kitab.php:266
+msgid "Cities"
+msgstr "Шаҳрҳо"
+
+#: wp-kitab.php:110
+msgid "Edit Author"
+msgstr "Вироиши Муаллиф"
+
+#: wp-kitab.php:44
+msgid "Edit Book"
+msgstr "Вироиши Китоб"
+
+#: wp-kitab.php:251
+msgid "Edit City"
+msgstr "Вироиши Шаҳр"
+
+#: wp-kitab.php:157
+msgid "Edit Genre"
+msgstr "Вироиши Жанр"
+
+#: wp-kitab.php:204
+msgid "Edit Language"
+msgstr "Вироиши Забон"
+
+#: wp-kitab.php:298
+msgid "Edit Publisher"
+msgstr "Вироиши Ношир"
+
+#: wp-kitab.php:345
+msgid "Edit Year"
+msgstr "Вироиши Сол"
+
+#: wp-kitab.php:51
+msgid "Featured Image"
+msgstr "Тасвири Шохис"
+
+#: wp-kitab.php:59
+msgid "Filter books list"
+msgstr "Филтри феҳристи китобҳо"
+
+#: wp-kitab.php:155 wp-kitab.php:172
+msgid "Genres"
+msgstr "Жанрҳо"
+
+#. URI of the plugin
+msgid "https://github.com/Ahrary"
+msgstr "https://github.com/Ahrary"
+
+#. Author URI of the plugin
+msgid "https://github.com/Ahrary/wp-kitab"
+msgstr "https://github.com/Ahrary/wp-kitab"
+
+#: wp-kitab.php:55
+msgid "Insert into book"
+msgstr "Гузоштан ба китоб"
+
+#: wp-kitab.php:202 wp-kitab.php:219
+msgid "Languages"
+msgstr "Забонҳо"
+
+#: wp-kitab.php:114
+msgid "New Author Name"
+msgstr "Номи Муаллифи Нав"
+
+#: wp-kitab.php:43
+msgid "New Book"
+msgstr "Номи Китоби Нав"
+
+#: wp-kitab.php:255
+msgid "New City Name"
+msgstr "Номи Шаҳри Нав"
+
+#: wp-kitab.php:161
+msgid "New Genre Name"
+msgstr "Номи Жанри Нав"
+
+#: wp-kitab.php:208
+msgid "New Language Name"
+msgstr "Номи Забони Нав"
+
+#: wp-kitab.php:302
+msgid "New Publisher Name"
+msgstr "Номи Ношири Нав"
+
+#: wp-kitab.php:349
+msgid "New Year Name"
+msgstr "Соли Нав"
+
+#: wp-kitab.php:120
+msgid "No authors found"
+msgstr "Ҳеч муаллифе пайдо нашуд"
+
+#: wp-kitab.php:261
+msgid "No cities found"
+msgstr "Ҳеч шаҳре пайдо нашуд"
+
+#: wp-kitab.php:167
+msgid "No genres found"
+msgstr "Ҳеч жанре пайдо нашуд"
+
+#: wp-kitab.php:214
+msgid "No languages found"
+msgstr "Ҳеч забоне пайдо нашуд"
+
+#: wp-kitab.php:308
+msgid "No publishers found"
+msgstr "Ҳеч ношире пайдо нашуд"
+
+#: wp-kitab.php:355
+msgid "No years found"
+msgstr "Ҳеч соле пайдо нашуд"
+
+#: wp-kitab.php:49
+msgid "Not found"
+msgstr "Пайдо нашуд"
+
+#: wp-kitab.php:50
+msgid "Not found in Trash"
+msgstr "Пайдо нашуд"
+
+#: wp-kitab.php:39
+msgid "Parent Book:"
+msgstr "Китоб Асосӣ:"
+
+#: wp-kitab.php:116
+msgid "Popular Authors"
+msgstr "Муаллифҳои Машҳур"
+
+#: wp-kitab.php:257
+msgid "Popular Cities"
+msgstr "Шаҳрҳои Машҳур"
+
+#: wp-kitab.php:163
+msgid "Popular Genres"
+msgstr "Жанрҳои Машҳур"
+
+#: wp-kitab.php:210
+msgid "Popular Languages"
+msgstr "Забонҳои Машҳур"
+
+#: wp-kitab.php:304
+msgid "Popular Publishers"
+msgstr "Ноширони Машҳур"
+
+#: wp-kitab.php:351
+msgid "Popular Years"
+msgstr "Солҳои Машҳур"
+
+#: wp-kitab.php:33
+msgctxt "Post Type General Name"
+msgid "Books"
+msgstr "Китобҳо"
+
+#: wp-kitab.php:34
+msgctxt "Post Type Singular Name"
+msgid "Book"
+msgstr "Китоб"
+
+#: wp-kitab.php:296 wp-kitab.php:313
+msgid "Publishers"
+msgstr "Ноширон"
+
+#: wp-kitab.php:53
+msgid "Remove featured image"
+msgstr "Ҳазфи тасвири шохис"
+
+#: wp-kitab.php:115
+msgid "Search Authors"
+msgstr "Ҷустуҷӯи Муаллифҳо"
+
+#: wp-kitab.php:48
+msgid "Search Book"
+msgstr "Ҷустуҷӯи Китоб"
+
+#: wp-kitab.php:256
+msgid "Search Cities"
+msgstr "Ҷустуҷӯи Шаҳрҳо"
+
+#: wp-kitab.php:162
+msgid "Search Genres"
+msgstr "Ҷустуҷӯи Жанрҳо"
+
+#: wp-kitab.php:209
+msgid "Search Languages"
+msgstr "Ҷустуҷӯи Забонҳо"
+
+#: wp-kitab.php:303
+msgid "Search Publishers"
+msgstr "Ҷустуҷӯи Ноширон"
+
+#: wp-kitab.php:350
+msgid "Search Years"
+msgstr "Ҷустуҷӯи Солҳо"
+
+#: wp-kitab.php:117
+msgid "Separate authors with commas"
+msgstr "Муаллифҳоро бо вергул ҷудо кунед"
+
+#: wp-kitab.php:258
+msgid "Separate cities with commas"
+msgstr "Шаҳрҳоро бо вергул ҷудо кунед"
+
+#: wp-kitab.php:164
+msgid "Separate genres with commas"
+msgstr "Жанрҳоро бо вергул ҷудо кунед"
+
+#: wp-kitab.php:211
+msgid "Separate languages with commas"
+msgstr "Забонҳоро бо вергул ҷудо кунед"
+
+#: wp-kitab.php:305
+msgid "Separate publishers with commas"
+msgstr "Ноширонро бо вергул ҷудо кунед"
+
+#: wp-kitab.php:352
+msgid "Separate years with commas"
+msgstr "Солҳоро бо вергул ҷудо кунед"
+
+#: wp-kitab.php:52
+msgid "Set featured image"
+msgstr "Танзими тасвири шохис"
+
+#: wp-kitab.php:106
+msgctxt "taxonomy general name"
+msgid "Authors"
+msgstr "Муаллифҳо"
+
+#: wp-kitab.php:107
+msgctxt "taxonomy singular name"
+msgid "Author"
+msgstr "Муаллиф"
+
+#: wp-kitab.php:112
+msgid "Update Author"
+msgstr "Навсозии Муаллиф"
+
+#: wp-kitab.php:45
+msgid "Update Book"
+msgstr "Навсозии Китоб"
+
+#: wp-kitab.php:253
+msgid "Update City"
+msgstr "Навсозии Шаҳр"
+
+#: wp-kitab.php:159
+msgid "Update Genre"
+msgstr "Навсозии Жанр"
+
+#: wp-kitab.php:206
+msgid "Update Language"
+msgstr "Навсозии Забон"
+
+#: wp-kitab.php:300
+msgid "Update Publisher"
+msgstr "Навсозии Ношир"
+
+#: wp-kitab.php:347
+msgid "Update Year"
+msgstr "Навсозии Сол"
+
+#: wp-kitab.php:56
+msgid "Uploaded to this book"
+msgstr "Барои ҳамин китоб боргузорӣ шудааст"
+
+#: wp-kitab.php:54
+msgid "Use as featured image"
+msgstr "Чун тасвири шохис истифода кардан"
+
+#: wp-kitab.php:111
+msgid "View Author"
+msgstr "Дидани Муаллиф"
+
+#: wp-kitab.php:46
+msgid "View Book"
+msgstr "Дидани Китоб"
+
+#: wp-kitab.php:47
+msgid "View Books"
+msgstr "Дидани Китобҳо"
+
+#: wp-kitab.php:252
+msgid "View City"
+msgstr "Дидани Шаҳр"
+
+#: wp-kitab.php:158
+msgid "View Genre"
+msgstr "Дидани Жанр"
+
+#: wp-kitab.php:205
+msgid "View Language"
+msgstr "Дидани Забон"
+
+#: wp-kitab.php:299
+msgid "View Publisher"
+msgstr "Дидани Ношир"
+
+#: wp-kitab.php:346
+msgid "View Year"
+msgstr "Дидани Сол"
+
+#. Name of the plugin
+msgid "WP Kitab"
+msgstr "WP Kitab"
+
+#. Description of the plugin
+msgid ""
+"WP Kitab is a simple plugin that allows you to add book post type and "
+"taxonomies for your website."
+msgstr ""
+"WP Kitab афзунаи содаест, ки имкон медиҳад ба вебгоҳи худ китобҳо биафзоед."
+
+#: wp-kitab.php:343 wp-kitab.php:360
+msgid "Years"
+msgstr "Солҳо"
