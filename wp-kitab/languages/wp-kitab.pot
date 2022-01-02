@@ -1,0 +1,499 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Kitab\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-02 08:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2\n"
+"X-Domain: wp-kitab"
+
+#: wp-kitab.php:42
+msgid "Add New"
+msgstr ""
+
+#: wp-kitab.php:113
+msgid "Add New Author"
+msgstr ""
+
+#: wp-kitab.php:41
+msgid "Add New Book"
+msgstr ""
+
+#: wp-kitab.php:254
+msgid "Add New City"
+msgstr ""
+
+#: wp-kitab.php:160
+msgid "Add New Genre"
+msgstr ""
+
+#: wp-kitab.php:207
+msgid "Add New Language"
+msgstr ""
+
+#: wp-kitab.php:301
+msgid "Add New Publisher"
+msgstr ""
+
+#: wp-kitab.php:348
+msgid "Add New Year"
+msgstr ""
+
+#: wp-kitab.php:118
+msgid "Add or remove authors"
+msgstr ""
+
+#: wp-kitab.php:259
+msgid "Add or remove cities"
+msgstr ""
+
+#: wp-kitab.php:165
+msgid "Add or remove genres"
+msgstr ""
+
+#: wp-kitab.php:212
+msgid "Add or remove languages"
+msgstr ""
+
+#: wp-kitab.php:306
+msgid "Add or remove publishers"
+msgstr ""
+
+#: wp-kitab.php:353
+msgid "Add or remove years"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ahrary"
+msgstr ""
+
+#: wp-kitab.php:109
+msgid "All Authors"
+msgstr ""
+
+#: wp-kitab.php:40
+msgid "All Books"
+msgstr ""
+
+#: wp-kitab.php:250
+msgid "All Cities"
+msgstr ""
+
+#: wp-kitab.php:156
+msgid "All Genres"
+msgstr ""
+
+#: wp-kitab.php:203
+msgid "All Languages"
+msgstr ""
+
+#: wp-kitab.php:297
+msgid "All Publishers"
+msgstr ""
+
+#: wp-kitab.php:344
+msgid "All Years"
+msgstr ""
+
+#: wp-kitab.php:418
+msgid "and others"
+msgstr ""
+
+#: wp-kitab.php:108 wp-kitab.php:125
+msgid "Authors"
+msgstr ""
+
+#: wp-kitab.php:121
+msgid "Back to authors"
+msgstr ""
+
+#: wp-kitab.php:262
+msgid "Back to cities"
+msgstr ""
+
+#: wp-kitab.php:168
+msgid "Back to genres"
+msgstr ""
+
+#: wp-kitab.php:215
+msgid "Back to languages"
+msgstr ""
+
+#: wp-kitab.php:309
+msgid "Back to publishers"
+msgstr ""
+
+#: wp-kitab.php:356
+msgid "Back to years"
+msgstr ""
+
+#: wp-kitab.php:36 wp-kitab.php:62
+msgid "Book"
+msgstr ""
+
+#: wp-kitab.php:37
+msgid "Book Archives"
+msgstr ""
+
+#: wp-kitab.php:38
+msgid "Book Attributes"
+msgstr ""
+
+#: wp-kitab.php:35
+msgid "Books"
+msgstr ""
+
+#: wp-kitab.php:57
+msgid "Books list"
+msgstr ""
+
+#: wp-kitab.php:58
+msgid "Books list navigation"
+msgstr ""
+
+#: wp-kitab.php:119
+msgid "Choose from the most used authors"
+msgstr ""
+
+#: wp-kitab.php:260
+msgid "Choose from the most used cities"
+msgstr ""
+
+#: wp-kitab.php:166
+msgid "Choose from the most used genres"
+msgstr ""
+
+#: wp-kitab.php:213
+msgid "Choose from the most used languages"
+msgstr ""
+
+#: wp-kitab.php:307
+msgid "Choose from the most used publishers"
+msgstr ""
+
+#: wp-kitab.php:354
+msgid "Choose from the most used years"
+msgstr ""
+
+#: wp-kitab.php:249 wp-kitab.php:266
+msgid "Cities"
+msgstr ""
+
+#: wp-kitab.php:110
+msgid "Edit Author"
+msgstr ""
+
+#: wp-kitab.php:44
+msgid "Edit Book"
+msgstr ""
+
+#: wp-kitab.php:251
+msgid "Edit City"
+msgstr ""
+
+#: wp-kitab.php:157
+msgid "Edit Genre"
+msgstr ""
+
+#: wp-kitab.php:204
+msgid "Edit Language"
+msgstr ""
+
+#: wp-kitab.php:298
+msgid "Edit Publisher"
+msgstr ""
+
+#: wp-kitab.php:345
+msgid "Edit Year"
+msgstr ""
+
+#: wp-kitab.php:51
+msgid "Featured Image"
+msgstr ""
+
+#: wp-kitab.php:59
+msgid "Filter books list"
+msgstr ""
+
+#: wp-kitab.php:155 wp-kitab.php:172
+msgid "Genres"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/Ahrary"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/Ahrary/wp-kitab"
+msgstr ""
+
+#: wp-kitab.php:55
+msgid "Insert into book"
+msgstr ""
+
+#: wp-kitab.php:202 wp-kitab.php:219
+msgid "Languages"
+msgstr ""
+
+#: wp-kitab.php:114
+msgid "New Author Name"
+msgstr ""
+
+#: wp-kitab.php:43
+msgid "New Book"
+msgstr ""
+
+#: wp-kitab.php:255
+msgid "New City Name"
+msgstr ""
+
+#: wp-kitab.php:161
+msgid "New Genre Name"
+msgstr ""
+
+#: wp-kitab.php:208
+msgid "New Language Name"
+msgstr ""
+
+#: wp-kitab.php:302
+msgid "New Publisher Name"
+msgstr ""
+
+#: wp-kitab.php:349
+msgid "New Year Name"
+msgstr ""
+
+#: wp-kitab.php:120
+msgid "No authors found"
+msgstr ""
+
+#: wp-kitab.php:261
+msgid "No cities found"
+msgstr ""
+
+#: wp-kitab.php:167
+msgid "No genres found"
+msgstr ""
+
+#: wp-kitab.php:214
+msgid "No languages found"
+msgstr ""
+
+#: wp-kitab.php:308
+msgid "No publishers found"
+msgstr ""
+
+#: wp-kitab.php:355
+msgid "No years found"
+msgstr ""
+
+#: wp-kitab.php:49
+msgid "Not found"
+msgstr ""
+
+#: wp-kitab.php:50
+msgid "Not found in Trash"
+msgstr ""
+
+#: wp-kitab.php:39
+msgid "Parent Book:"
+msgstr ""
+
+#: wp-kitab.php:116
+msgid "Popular Authors"
+msgstr ""
+
+#: wp-kitab.php:257
+msgid "Popular Cities"
+msgstr ""
+
+#: wp-kitab.php:163
+msgid "Popular Genres"
+msgstr ""
+
+#: wp-kitab.php:210
+msgid "Popular Languages"
+msgstr ""
+
+#: wp-kitab.php:304
+msgid "Popular Publishers"
+msgstr ""
+
+#: wp-kitab.php:351
+msgid "Popular Years"
+msgstr ""
+
+#: wp-kitab.php:33
+msgctxt "Post Type General Name"
+msgid "Books"
+msgstr ""
+
+#: wp-kitab.php:34
+msgctxt "Post Type Singular Name"
+msgid "Book"
+msgstr ""
+
+#: wp-kitab.php:296 wp-kitab.php:313
+msgid "Publishers"
+msgstr ""
+
+#: wp-kitab.php:53
+msgid "Remove featured image"
+msgstr ""
+
+#: wp-kitab.php:115
+msgid "Search Authors"
+msgstr ""
+
+#: wp-kitab.php:48
+msgid "Search Book"
+msgstr ""
+
+#: wp-kitab.php:256
+msgid "Search Cities"
+msgstr ""
+
+#: wp-kitab.php:162
+msgid "Search Genres"
+msgstr ""
+
+#: wp-kitab.php:209
+msgid "Search Languages"
+msgstr ""
+
+#: wp-kitab.php:303
+msgid "Search Publishers"
+msgstr ""
+
+#: wp-kitab.php:350
+msgid "Search Years"
+msgstr ""
+
+#: wp-kitab.php:117
+msgid "Separate authors with commas"
+msgstr ""
+
+#: wp-kitab.php:258
+msgid "Separate cities with commas"
+msgstr ""
+
+#: wp-kitab.php:164
+msgid "Separate genres with commas"
+msgstr ""
+
+#: wp-kitab.php:211
+msgid "Separate languages with commas"
+msgstr ""
+
+#: wp-kitab.php:305
+msgid "Separate publishers with commas"
+msgstr ""
+
+#: wp-kitab.php:352
+msgid "Separate years with commas"
+msgstr ""
+
+#: wp-kitab.php:52
+msgid "Set featured image"
+msgstr ""
+
+#: wp-kitab.php:106
+msgctxt "taxonomy general name"
+msgid "Authors"
+msgstr ""
+
+#: wp-kitab.php:107
+msgctxt "taxonomy singular name"
+msgid "Author"
+msgstr ""
+
+#: wp-kitab.php:112
+msgid "Update Author"
+msgstr ""
+
+#: wp-kitab.php:45
+msgid "Update Book"
+msgstr ""
+
+#: wp-kitab.php:253
+msgid "Update City"
+msgstr ""
+
+#: wp-kitab.php:159
+msgid "Update Genre"
+msgstr ""
+
+#: wp-kitab.php:206
+msgid "Update Language"
+msgstr ""
+
+#: wp-kitab.php:300
+msgid "Update Publisher"
+msgstr ""
+
+#: wp-kitab.php:347
+msgid "Update Year"
+msgstr ""
+
+#: wp-kitab.php:56
+msgid "Uploaded to this book"
+msgstr ""
+
+#: wp-kitab.php:54
+msgid "Use as featured image"
+msgstr ""
+
+#: wp-kitab.php:111
+msgid "View Author"
+msgstr ""
+
+#: wp-kitab.php:46
+msgid "View Book"
+msgstr ""
+
+#: wp-kitab.php:47
+msgid "View Books"
+msgstr ""
+
+#: wp-kitab.php:252
+msgid "View City"
+msgstr ""
+
+#: wp-kitab.php:158
+msgid "View Genre"
+msgstr ""
+
+#: wp-kitab.php:205
+msgid "View Language"
+msgstr ""
+
+#: wp-kitab.php:299
+msgid "View Publisher"
+msgstr ""
+
+#: wp-kitab.php:346
+msgid "View Year"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Kitab"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WP Kitab is a simple plugin that allows you to add book post type and "
+"taxonomies for your website."
+msgstr ""
+
+#: wp-kitab.php:343 wp-kitab.php:360
+msgid "Years"
+msgstr ""
