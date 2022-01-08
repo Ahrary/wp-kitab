@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WP Kitab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-01 16:50+0000\n"
-"PO-Revision-Date: 2022-01-02 14:30+0000\n"
+"PO-Revision-Date: 2022-01-08 18:56+0000\n"
 "Last-Translator: Ahrary\n"
 "Language-Team: Tajik (Tajikistan)\n"
 "Language: tg-TJ\n"
@@ -15,473 +15,726 @@ msgstr ""
 "X-Loco-Version: 2.5.5; wp-5.8.2\n"
 "X-Domain: wp-kitab"
 
-#: wp-kitab.php:42
+#: includes/class-wp-kitab-cpt.php:34
 msgid "Add New"
 msgstr "Афзудан"
 
-#: wp-kitab.php:113
+#: includes/class-wp-kitab-taxonomies.php:54
 msgid "Add New Author"
 msgstr "Афзудани Муаллиф"
 
-#: wp-kitab.php:41
+#: includes/class-wp-kitab-cpt.php:33
 msgid "Add New Book"
 msgstr "Афзудани Китоб"
 
-#: wp-kitab.php:254
+#: includes/class-wp-kitab-taxonomies.php:145
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:236
 msgid "Add New City"
 msgstr "Афзудани Шаҳр"
 
-#: wp-kitab.php:160
-msgid "Add New Genre"
-msgstr "Афзудани Жанр"
-
-#: wp-kitab.php:207
+#: includes/class-wp-kitab-taxonomies.php:190
 msgid "Add New Language"
 msgstr "Афзудани Забон"
 
-#: wp-kitab.php:301
+#: includes/class-wp-kitab-taxonomies.php:99
+msgid "Add New Main Category"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:322
+msgid "Add New Published Date"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:282
 msgid "Add New Publisher"
 msgstr "Афзудани Ношир"
 
-#: wp-kitab.php:348
-msgid "Add New Year"
-msgstr "Афзудани Сол"
+#: includes/class-wp-kitab-taxonomies.php:362
+#| msgid "Add New Year"
+msgid "Add New Tag"
+msgstr "Афзудани Калидвожа"
 
-#: wp-kitab.php:118
+#: includes/class-wp-kitab-taxonomies.php:59
 msgid "Add or remove authors"
 msgstr "Афзудан ё ҳазфи муаллифҳо"
 
-#: wp-kitab.php:259
+#: includes/class-wp-kitab-taxonomies.php:241
 msgid "Add or remove cities"
 msgstr "Афзудан ё ҳазфи шаҳрҳо"
 
-#: wp-kitab.php:165
+#: includes/class-wp-kitab-taxonomies.php:150
 msgid "Add or remove genres"
 msgstr "Афзудан ё ҳазфи жанрҳо"
 
-#: wp-kitab.php:212
+#: includes/class-wp-kitab-taxonomies.php:195
 msgid "Add or remove languages"
 msgstr "Афзудан ё ҳазфи забонҳо"
 
-#: wp-kitab.php:306
-msgid "Add or remove publishers"
-msgstr "Афзудан ё ҳазфи ноширон"
+#: includes/class-wp-kitab-taxonomies.php:105
+msgid "Add or remove main categories"
+msgstr ""
 
-#: wp-kitab.php:353
-msgid "Add or remove years"
-msgstr "Афзудан ё ҳазфи солҳо"
+#: wp-kitab.php:115
+msgid "Advanced Custom Fields is not active."
+msgstr ""
+
+#: wp-kitab.php:124
+msgid "Advanced Custom Fields is not installed."
+msgstr ""
 
 #. Author of the plugin
 msgid "Ahrary"
 msgstr "Аҳрорӣ"
 
-#: wp-kitab.php:109
+#: includes/class-wp-kitab-taxonomies.php:50
 msgid "All Authors"
 msgstr "Ҳамаи Муаллифҳо"
 
-#: wp-kitab.php:40
+#: includes/class-wp-kitab-cpt.php:32
 msgid "All Books"
 msgstr "Ҳамаи Китобҳо"
 
-#: wp-kitab.php:250
+#: includes/class-wp-kitab-taxonomies.php:141
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:232
 msgid "All Cities"
 msgstr "Ҳамаи Шаҳрҳо"
 
-#: wp-kitab.php:156
-msgid "All Genres"
-msgstr "Ҳамаи Жанрҳо"
-
-#: wp-kitab.php:203
+#: includes/class-wp-kitab-taxonomies.php:186
 msgid "All Languages"
 msgstr "Ҳамаи Забонҳо"
 
-#: wp-kitab.php:297
+#: includes/class-wp-kitab-taxonomies.php:95
+msgid "All Main Categories"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:317
+msgid "All Published Date"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:277
 msgid "All Publishers"
 msgstr "Ҳамаи Ноширон"
 
-#: wp-kitab.php:344
-msgid "All Years"
-msgstr "Ҳамаи Солҳо"
+#: includes/class-wp-kitab-taxonomies.php:357
+msgid "All Tags"
+msgstr ""
 
-#: wp-kitab.php:416
+#: functions/functions.php:34
 msgid "and others"
 msgstr "ва диг."
 
-#: wp-kitab.php:108 wp-kitab.php:125
+#: includes/class-wp-kitab-acf.php:348
+msgid "Attach the book file"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:371
+msgid "Attach the Cover"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:70 includes/class-wp-kitab-taxonomies.php:49
 msgid "Authors"
 msgstr "Муаллифҳо"
 
-#: wp-kitab.php:121
+#: includes/class-wp-kitab-taxonomies.php:62
 msgid "Back to authors"
 msgstr "Баргашт ба муаллифҳо"
 
-#: wp-kitab.php:262
+#: includes/class-wp-kitab-taxonomies.php:244
 msgid "Back to cities"
 msgstr "Баргашт ба шаҳрҳо"
 
-#: wp-kitab.php:168
+#: includes/class-wp-kitab-taxonomies.php:153
 msgid "Back to genres"
 msgstr "Баргашт ба жанрҳо"
 
-#: wp-kitab.php:215
+#: includes/class-wp-kitab-taxonomies.php:198
 msgid "Back to languages"
 msgstr "Баргашт ба забонҳо"
 
-#: wp-kitab.php:309
-msgid "Back to publishers"
-msgstr "Баргашт ба ноширон"
+#: includes/class-wp-kitab-taxonomies.php:108
+msgid "Back to main categories"
+msgstr ""
 
-#: wp-kitab.php:356
-msgid "Back to years"
-msgstr "Баргашт ба солҳо"
-
-#: wp-kitab.php:36 wp-kitab.php:62
+#: includes/class-wp-kitab-cpt.php:28 includes/class-wp-kitab-cpt.php:54
 msgid "Book"
 msgstr "Китоб"
 
-#: wp-kitab.php:37
+#: includes/class-wp-kitab-cpt.php:29
 msgid "Book Archives"
 msgstr "Бойгонии Китобҳо"
 
-#: wp-kitab.php:38
+#: includes/class-wp-kitab-cpt.php:30
 msgid "Book Attributes"
 msgstr "Вежагиҳои Китоб"
 
-#: wp-kitab.php:35
+#: includes/class-wp-kitab-acf.php:16
+msgid "Book Custom Fields"
+msgstr ""
+
+#: includes/class-wp-kitab-cpt.php:27
 msgid "Books"
 msgstr "Китобҳо"
 
-#: wp-kitab.php:57
+#: includes/class-wp-kitab-cpt.php:49
 msgid "Books list"
 msgstr "Феҳристи китобҳо"
 
-#: wp-kitab.php:58
+#: includes/class-wp-kitab-cpt.php:50
 msgid "Books list navigation"
 msgstr "Паймоиши феҳристи китобҳо"
 
-#: wp-kitab.php:119
+#: includes/class-wp-kitab-acf.php:252 
+#: includes/class-wp-kitab-taxonomies.php:140
+msgid "Categories"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:60
 msgid "Choose from the most used authors"
 msgstr "Аз миёни муаллифҳои пуркорбурд интихоб кунед"
 
-#: wp-kitab.php:260
+#: includes/class-wp-kitab-taxonomies.php:242
 msgid "Choose from the most used cities"
 msgstr "Аз миёни шаҳрҳои пуркорбурд интихоб кунед"
 
-#: wp-kitab.php:166
+#: includes/class-wp-kitab-taxonomies.php:151
 msgid "Choose from the most used genres"
 msgstr "Аз миёни жанрҳои пуркорбурд интихоб кунед"
 
-#: wp-kitab.php:213
+#: includes/class-wp-kitab-taxonomies.php:196
 msgid "Choose from the most used languages"
 msgstr "Аз миёни забонҳои пуркорбурд интихоб кунед"
 
-#: wp-kitab.php:307
-msgid "Choose from the most used publishers"
-msgstr "Аз миёни ноширони пуркорбурд интихоб кунед"
+#: includes/class-wp-kitab-taxonomies.php:106
+msgid "Choose from the most used main categories"
+msgstr ""
 
-#: wp-kitab.php:354
-msgid "Choose from the most used years"
-msgstr "Аз миёни солҳои пуркорбурд интихоб кунед"
-
-#: wp-kitab.php:249 wp-kitab.php:266
+#: includes/class-wp-kitab-taxonomies.php:231
 msgid "Cities"
 msgstr "Шаҳрҳо"
 
-#: wp-kitab.php:110
+#: includes/class-wp-kitab-acf.php:98
+msgid "City"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:368
+msgid "Cover"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:396
+msgid "Description"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:51
 msgid "Edit Author"
 msgstr "Вироиши Муаллиф"
 
-#: wp-kitab.php:44
+#: includes/class-wp-kitab-cpt.php:36
 msgid "Edit Book"
 msgstr "Вироиши Китоб"
 
-#: wp-kitab.php:251
+#: includes/class-wp-kitab-taxonomies.php:142
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:233
 msgid "Edit City"
 msgstr "Вироиши Шаҳр"
 
-#: wp-kitab.php:157
-msgid "Edit Genre"
-msgstr "Вироиши Жанр"
-
-#: wp-kitab.php:204
+#: includes/class-wp-kitab-taxonomies.php:187
 msgid "Edit Language"
 msgstr "Вироиши Забон"
 
-#: wp-kitab.php:298
+#: includes/class-wp-kitab-taxonomies.php:96
+msgid "Edit Main Category"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:320
+msgid "Edit Published Date"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:280
 msgid "Edit Publisher"
 msgstr "Вироиши Ношир"
 
-#: wp-kitab.php:345
-msgid "Edit Year"
-msgstr "Вироиши Сол"
+#: includes/class-wp-kitab-taxonomies.php:360
+msgid "Edit Tag"
+msgstr ""
 
-#: wp-kitab.php:51
+#: includes/class-wp-kitab-acf.php:399
+msgid "Enter Book Description"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:322
+msgid "Enter book ISBN"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:205
+msgid "Enter the Page Count"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:49
+msgid "Enter the Title"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:179
+msgid "Enter the Volume"
+msgstr ""
+
+#: includes/class-wp-kitab-cpt.php:43
 msgid "Featured Image"
 msgstr "Тасвири Шохис"
 
-#: wp-kitab.php:59
+#: includes/class-wp-kitab-acf.php:345
+msgid "File"
+msgstr ""
+
+#: includes/class-wp-kitab-cpt.php:51
 msgid "Filter books list"
 msgstr "Филтри феҳристи китобҳо"
 
-#: wp-kitab.php:155 wp-kitab.php:172
-msgid "Genres"
-msgstr "Жанрҳо"
-
-#. URI of the plugin
+#. Author URI of the plugin
 msgid "https://github.com/Ahrary"
 msgstr "https://github.com/Ahrary"
 
-#. Author URI of the plugin
+#. URI of the plugin
 msgid "https://github.com/Ahrary/wp-kitab"
 msgstr "https://github.com/Ahrary/wp-kitab"
 
-#: wp-kitab.php:55
+#: includes/class-wp-kitab-acf.php:304
+msgid "Industry Identifiers"
+msgstr ""
+
+#: includes/class-wp-kitab-cpt.php:47
 msgid "Insert into book"
 msgstr "Гузоштан ба китоб"
 
-#: wp-kitab.php:202 wp-kitab.php:219
+#: includes/class-wp-kitab-acf.php:319
+msgid "ISBN"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:278
+msgid "Language"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:185 
+#: includes/class-wp-kitab-taxonomies.php:202
 msgid "Languages"
 msgstr "Забонҳо"
 
-#: wp-kitab.php:114
+#: includes/class-wp-kitab-taxonomies.php:102
+msgid "Main Categories"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:226
+msgid "Main Category"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:55
 msgid "New Author Name"
 msgstr "Номи Муаллифи Нав"
 
-#: wp-kitab.php:43
+#: includes/class-wp-kitab-cpt.php:35
 msgid "New Book"
 msgstr "Номи Китоби Нав"
 
-#: wp-kitab.php:255
+#: includes/class-wp-kitab-taxonomies.php:146
+msgid "New Category Name"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:237
 msgid "New City Name"
 msgstr "Номи Шаҳри Нав"
 
-#: wp-kitab.php:161
-msgid "New Genre Name"
-msgstr "Номи Жанри Нав"
-
-#: wp-kitab.php:208
+#: includes/class-wp-kitab-taxonomies.php:191
 msgid "New Language Name"
 msgstr "Номи Забони Нав"
 
-#: wp-kitab.php:302
+#: includes/class-wp-kitab-taxonomies.php:100
+msgid "New Main Category Name"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:323
+msgid "New Published Date Name"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:283
 msgid "New Publisher Name"
 msgstr "Номи Ношири Нав"
 
-#: wp-kitab.php:349
-msgid "New Year Name"
-msgstr "Соли Нав"
+#: includes/class-wp-kitab-taxonomies.php:363
+#| msgid "New Year Name"
+msgid "New Tag Name"
+msgstr "Калидвожаи Нав"
 
-#: wp-kitab.php:120
+#: includes/class-wp-kitab-taxonomies.php:61
 msgid "No authors found"
 msgstr "Ҳеч муаллифе пайдо нашуд"
 
-#: wp-kitab.php:261
+#: includes/class-wp-kitab-taxonomies.php:243
 msgid "No cities found"
 msgstr "Ҳеч шаҳре пайдо нашуд"
 
-#: wp-kitab.php:167
+#: includes/class-wp-kitab-taxonomies.php:152
 msgid "No genres found"
 msgstr "Ҳеч жанре пайдо нашуд"
 
-#: wp-kitab.php:214
+#: includes/class-wp-kitab-taxonomies.php:197
 msgid "No languages found"
 msgstr "Ҳеч забоне пайдо нашуд"
 
-#: wp-kitab.php:308
-msgid "No publishers found"
-msgstr "Ҳеч ношире пайдо нашуд"
+#: includes/class-wp-kitab-taxonomies.php:107
+msgid "No main categories found"
+msgstr ""
 
-#: wp-kitab.php:355
-msgid "No years found"
-msgstr "Ҳеч соле пайдо нашуд"
-
-#: wp-kitab.php:49
+#: includes/class-wp-kitab-cpt.php:41
 msgid "Not found"
 msgstr "Пайдо нашуд"
 
-#: wp-kitab.php:50
+#: includes/class-wp-kitab-cpt.php:42
 msgid "Not found in Trash"
 msgstr "Пайдо нашуд"
 
-#: wp-kitab.php:39
+#: includes/class-wp-kitab-acf.php:202
+msgid "Page Count"
+msgstr ""
+
+#: includes/class-wp-kitab-cpt.php:31
 msgid "Parent Book:"
 msgstr "Китоб Асосӣ:"
 
-#: wp-kitab.php:116
+#: includes/class-wp-kitab-taxonomies.php:318
+msgid "Parent Published Date"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:319
+msgid "Parent Published Date:"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:278
+msgid "Parent Publisher"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:279
+msgid "Parent Publisher:"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:358
+msgid "Parent Tag"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:359
+msgid "Parent Tag:"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:57
 msgid "Popular Authors"
 msgstr "Муаллифҳои Машҳур"
 
-#: wp-kitab.php:257
+#: includes/class-wp-kitab-taxonomies.php:148
+msgid "Popular Categories"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:239
 msgid "Popular Cities"
 msgstr "Шаҳрҳои Машҳур"
 
-#: wp-kitab.php:163
-msgid "Popular Genres"
-msgstr "Жанрҳои Машҳур"
-
-#: wp-kitab.php:210
+#: includes/class-wp-kitab-taxonomies.php:193
 msgid "Popular Languages"
 msgstr "Забонҳои Машҳур"
 
-#: wp-kitab.php:304
-msgid "Popular Publishers"
-msgstr "Ноширони Машҳур"
+#: includes/class-wp-kitab-taxonomies.php:103
+msgid "Popular Main Categories"
+msgstr ""
 
-#: wp-kitab.php:351
-msgid "Popular Years"
-msgstr "Солҳои Машҳур"
-
-#: wp-kitab.php:33
+#: includes/class-wp-kitab-cpt.php:25
 msgctxt "Post Type General Name"
 msgid "Books"
 msgstr "Китобҳо"
 
-#: wp-kitab.php:34
+#: includes/class-wp-kitab-cpt.php:26
 msgctxt "Post Type Singular Name"
 msgid "Book"
 msgstr "Китоб"
 
-#: wp-kitab.php:296 wp-kitab.php:313
+#: includes/class-wp-kitab-acf.php:150 
+#: includes/class-wp-kitab-taxonomies.php:324
+msgid "Published Date"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:124
+msgid "Publisher"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:284
 msgid "Publishers"
 msgstr "Ноширон"
 
-#: wp-kitab.php:53
+#: includes/class-wp-kitab-cpt.php:45
 msgid "Remove featured image"
 msgstr "Ҳазфи тасвири шохис"
 
-#: wp-kitab.php:115
+#: includes/class-wp-kitab-taxonomies.php:56
 msgid "Search Authors"
 msgstr "Ҷустуҷӯи Муаллифҳо"
 
-#: wp-kitab.php:48
+#: includes/class-wp-kitab-cpt.php:40
 msgid "Search Book"
 msgstr "Ҷустуҷӯи Китоб"
 
-#: wp-kitab.php:256
+#: includes/class-wp-kitab-taxonomies.php:147
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:238
 msgid "Search Cities"
 msgstr "Ҷустуҷӯи Шаҳрҳо"
 
-#: wp-kitab.php:162
-msgid "Search Genres"
-msgstr "Ҷустуҷӯи Жанрҳо"
-
-#: wp-kitab.php:209
+#: includes/class-wp-kitab-taxonomies.php:192
 msgid "Search Languages"
 msgstr "Ҷустуҷӯи Забонҳо"
 
-#: wp-kitab.php:303
+#: includes/class-wp-kitab-taxonomies.php:101
+msgid "Search Main Categories"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:316
+msgid "Search Published Date"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:276
 msgid "Search Publishers"
 msgstr "Ҷустуҷӯи Ноширон"
 
-#: wp-kitab.php:350
-msgid "Search Years"
-msgstr "Ҷустуҷӯи Солҳо"
+#: includes/class-wp-kitab-taxonomies.php:356
+#| msgid "Search Years"
+msgid "Search Tags"
+msgstr "Ҷустуҷӯи Калидвожаҳо"
 
-#: wp-kitab.php:117
+#: includes/class-wp-kitab-acf.php:73
+msgid "Select or add the Authors"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:255
+msgid "Select or add the Categories"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:101
+msgid "Select or add the City"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:281
+msgid "Select or add the Language"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:229
+msgid "Select or add the Main Category"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:153
+msgid "Select or add the Published Date"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:127
+msgid "Select or add the Publisher"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:58
 msgid "Separate authors with commas"
 msgstr "Муаллифҳоро бо вергул ҷудо кунед"
 
-#: wp-kitab.php:258
+#: includes/class-wp-kitab-taxonomies.php:240
 msgid "Separate cities with commas"
 msgstr "Шаҳрҳоро бо вергул ҷудо кунед"
 
-#: wp-kitab.php:164
+#: includes/class-wp-kitab-taxonomies.php:149
 msgid "Separate genres with commas"
 msgstr "Жанрҳоро бо вергул ҷудо кунед"
 
-#: wp-kitab.php:211
+#: includes/class-wp-kitab-taxonomies.php:194
 msgid "Separate languages with commas"
 msgstr "Забонҳоро бо вергул ҷудо кунед"
 
-#: wp-kitab.php:305
-msgid "Separate publishers with commas"
-msgstr "Ноширонро бо вергул ҷудо кунед"
+#: includes/class-wp-kitab-taxonomies.php:104
+msgid "Separate main categories with commas"
+msgstr ""
 
-#: wp-kitab.php:352
-msgid "Separate years with commas"
-msgstr "Солҳоро бо вергул ҷудо кунед"
-
-#: wp-kitab.php:52
+#: includes/class-wp-kitab-cpt.php:44
 msgid "Set featured image"
 msgstr "Танзими тасвири шохис"
 
-#: wp-kitab.php:106
+#: includes/class-wp-kitab-taxonomies.php:364
+msgid "Tags"
+msgstr "Барчасб"
+
+#: includes/class-wp-kitab-taxonomies.php:47
 msgctxt "taxonomy general name"
 msgid "Authors"
 msgstr "Муаллифҳо"
 
-#: wp-kitab.php:107
+#: includes/class-wp-kitab-taxonomies.php:138
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "Категорияҳо"
+
+#: includes/class-wp-kitab-taxonomies.php:229
+msgctxt "taxonomy general name"
+msgid "Cities"
+msgstr "Шаҳрҳо"
+
+#: includes/class-wp-kitab-taxonomies.php:183
+msgctxt "taxonomy general name"
+msgid "Languages"
+msgstr "Забонҳо"
+
+#: includes/class-wp-kitab-taxonomies.php:93
+msgctxt "taxonomy general name"
+msgid "Main Categories"
+msgstr "Категорияҳои Аслӣ"
+
+#: includes/class-wp-kitab-taxonomies.php:314
+msgctxt "taxonomy general name"
+msgid "Published Date"
+msgstr "Санаи Чоп"
+
+#: includes/class-wp-kitab-taxonomies.php:274
+msgctxt "taxonomy general name"
+msgid "Publishers"
+msgstr "Ноширон"
+
+#: includes/class-wp-kitab-taxonomies.php:354
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr "Калидвожаҳо"
+
+#: includes/class-wp-kitab-taxonomies.php:48
 msgctxt "taxonomy singular name"
 msgid "Author"
 msgstr "Муаллиф"
 
-#: wp-kitab.php:112
+#: includes/class-wp-kitab-taxonomies.php:139
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Категория"
+
+#: includes/class-wp-kitab-taxonomies.php:230
+msgctxt "taxonomy singular name"
+msgid "City"
+msgstr "Шаҳр"
+
+#: includes/class-wp-kitab-taxonomies.php:184
+msgctxt "taxonomy singular name"
+msgid "Language"
+msgstr "Забон"
+
+#: includes/class-wp-kitab-taxonomies.php:94
+msgctxt "taxonomy singular name"
+msgid "Main Category"
+msgstr "Категорияи Аслӣ"
+
+#: includes/class-wp-kitab-taxonomies.php:315
+msgctxt "taxonomy singular name"
+msgid "Published Date"
+msgstr "Санаи Чоп"
+
+#: includes/class-wp-kitab-taxonomies.php:275
+msgctxt "taxonomy singular name"
+msgid "Publisher"
+msgstr "Ношир"
+
+#: includes/class-wp-kitab-taxonomies.php:355
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr "Калидвожа"
+
+#: includes/class-wp-kitab-acf.php:46
+msgid "Title"
+msgstr "Унвон"
+
+#: includes/class-wp-kitab-taxonomies.php:53
 msgid "Update Author"
 msgstr "Навсозии Муаллиф"
 
-#: wp-kitab.php:45
+#: includes/class-wp-kitab-cpt.php:37
 msgid "Update Book"
 msgstr "Навсозии Китоб"
 
-#: wp-kitab.php:253
+#: includes/class-wp-kitab-taxonomies.php:144
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:235
 msgid "Update City"
 msgstr "Навсозии Шаҳр"
 
-#: wp-kitab.php:159
-msgid "Update Genre"
-msgstr "Навсозии Жанр"
-
-#: wp-kitab.php:206
+#: includes/class-wp-kitab-taxonomies.php:189
 msgid "Update Language"
 msgstr "Навсозии Забон"
 
-#: wp-kitab.php:300
+#: includes/class-wp-kitab-taxonomies.php:98
+msgid "Update Main Category"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:321
+msgid "Update Published Date"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:281
 msgid "Update Publisher"
 msgstr "Навсозии Ношир"
 
-#: wp-kitab.php:347
-msgid "Update Year"
-msgstr "Навсозии Сол"
+#: includes/class-wp-kitab-taxonomies.php:361
+#| msgid "Update Year"
+msgid "Update Tag"
+msgstr "Навсозии Калидвожа"
 
-#: wp-kitab.php:56
+#: includes/class-wp-kitab-cpt.php:48
 msgid "Uploaded to this book"
 msgstr "Барои ҳамин китоб боргузорӣ шудааст"
 
-#: wp-kitab.php:54
+#: includes/class-wp-kitab-cpt.php:46
 msgid "Use as featured image"
 msgstr "Чун тасвири шохис истифода кардан"
 
-#: wp-kitab.php:111
+#: includes/class-wp-kitab-taxonomies.php:52
 msgid "View Author"
 msgstr "Дидани Муаллиф"
 
-#: wp-kitab.php:46
+#: includes/class-wp-kitab-cpt.php:38
 msgid "View Book"
 msgstr "Дидани Китоб"
 
-#: wp-kitab.php:47
+#: includes/class-wp-kitab-cpt.php:39
 msgid "View Books"
 msgstr "Дидани Китобҳо"
 
-#: wp-kitab.php:252
+#: includes/class-wp-kitab-taxonomies.php:143
+msgid "View Category"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:234
 msgid "View City"
 msgstr "Дидани Шаҳр"
 
-#: wp-kitab.php:158
-msgid "View Genre"
-msgstr "Дидани Жанр"
-
-#: wp-kitab.php:205
+#: includes/class-wp-kitab-taxonomies.php:188
 msgid "View Language"
 msgstr "Дидани Забон"
 
-#: wp-kitab.php:299
-msgid "View Publisher"
-msgstr "Дидани Ношир"
+#: includes/class-wp-kitab-taxonomies.php:97
+msgid "View Main Category"
+msgstr ""
 
-#: wp-kitab.php:346
-msgid "View Year"
-msgstr "Дидани Сол"
+#: includes/class-wp-kitab-acf.php:176
+msgid "Volume"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:31
+msgid "Volume Info"
+msgstr ""
 
 #. Name of the plugin
 msgid "WP Kitab"
@@ -490,13 +743,24 @@ msgstr "WP Kitab"
 #. Description of the plugin
 #| msgid ""
 #| "WP Kitab is a simple plugin that allows you to add book post type and "
-#| "taxonomies for your website."
+#| "taxonomies to your website."
 msgid ""
 "WP Kitab is a simple plugin that allows you to add book post type and "
-"taxonomies to your website."
+"taxonomies to your wordpress website."
 msgstr ""
 "WP Kitab афзунаи содаест, ки имкон медиҳад ба вебгоҳи худ китобҳо биафзоед."
 
-#: wp-kitab.php:343 wp-kitab.php:360
-msgid "Years"
-msgstr "Солҳо"
+#: wp-kitab.php:106
+#, php-format
+msgid "WP Kitab requires Advanced Custom Fields version %s or higher."
+msgstr ""
+
+#: wp-kitab.php:88
+#, php-format
+msgid "WP Kitab requires PHP version %s or higher."
+msgstr ""
+
+#: wp-kitab.php:97
+#, php-format
+msgid "WP Kitab requires WordPress version %s or higher."
+msgstr ""
