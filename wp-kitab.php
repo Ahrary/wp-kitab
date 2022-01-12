@@ -10,7 +10,7 @@
  * Plugin Name:       WP Kitab
  * Plugin URI:        https://github.com/Ahrary/wp-kitab
  * Description:       WP Kitab is a simple plugin that allows you to add book post type and taxonomies to your wordpress website.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Requires at least: 5.2
  * Tested up to:      5.8.2
  * Requires PHP:      7.0
@@ -29,7 +29,7 @@ if (!defined('ABSPATH')) {
 
 // define required wp version
 define('AFZUNA_WP_VERSION', '4.8');
-define('AFZUNA', 'wp-kitab');
+define('AFZUNA_TEXTDOMAIN', 'wp-kitab');
 define('AFZUNA_NAME', 'WP Kitab');
 define('AFZUNA_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('AFZUNA_PLUGIN_URL', plugin_dir_url(__FILE__));
@@ -38,11 +38,12 @@ define('AFZUNA_ACF_VERSION', '5.0.0');
 
 
 // load plugin text domain
-add_action('plugins_loaded', 'wp_kitab_load_textdomain');
-function wp_kitab_load_textdomain()
-{
-	load_plugin_textdomain(AFZUNA, false, basename(dirname(__FILE__)) . '/languages');
-}
+add_action(
+	'init',
+	static function () {
+		load_plugin_textdomain(AFZUNA_TEXTDOMAIN, false, dirname(plugin_basename(__FILE__)) . '/languages');
+	}
+);
 
 
 // include required files
@@ -161,8 +162,11 @@ register_uninstall_hook(__FILE__, 'wp_kitab_uninstall');
 
 
 // run plugin
-function run_wp_kitab()
-{
-	$plugin = new WP_Kitab();
-	$plugin->run();
+
+if (!wp_installing()) {
+	function run_wp_kitab()
+	{
+		$plugin = new WP_Kitab();
+		$plugin->run();
+	}
 }
