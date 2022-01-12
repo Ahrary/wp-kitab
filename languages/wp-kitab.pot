@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Kitab\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-08 18:51+0000\n"
+"POT-Creation-Date: 2022-01-10 08:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Loco-Version: 2.5.5; wp-5.8.2\n"
 "X-Domain: wp-kitab"
 
-#: includes/class-wp-kitab-cpt.php:34
+#: includes/class-wp-kitab-cpt.php:33
 msgid "Add New"
 msgstr ""
 
@@ -24,11 +24,11 @@ msgstr ""
 msgid "Add New Author"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:33
+#: includes/class-wp-kitab-cpt.php:32
 msgid "Add New Book"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:145
+#: includes/class-wp-kitab-taxonomies.php:99
 msgid "Add New Category"
 msgstr ""
 
@@ -36,19 +36,19 @@ msgstr ""
 msgid "Add New City"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:145
+msgid "Add New Genre"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:190
 msgid "Add New Language"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:99
-msgid "Add New Main Category"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:322
+#: includes/class-wp-kitab-taxonomies.php:324
 msgid "Add New Published Date"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:282
+#: includes/class-wp-kitab-taxonomies.php:286
 msgid "Add New Publisher"
 msgstr ""
 
@@ -57,7 +57,11 @@ msgid "Add New Tag"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:59
-msgid "Add or remove authors"
+msgid "Add or remove Authors"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:105
+msgid "Add or remove Categories"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:241
@@ -65,22 +69,22 @@ msgid "Add or remove cities"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:150
-msgid "Add or remove genres"
+msgid "Add or remove Genres"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:195
 msgid "Add or remove languages"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:105
-msgid "Add or remove main categories"
+#: includes/class-wp-kitab-taxonomies.php:279
+msgid "Add or remove publishers"
 msgstr ""
 
-#: wp-kitab.php:115
+#: wp-kitab.php:116
 msgid "Advanced Custom Fields is not active."
 msgstr ""
 
-#: wp-kitab.php:124
+#: wp-kitab.php:125
 msgid "Advanced Custom Fields is not installed."
 msgstr ""
 
@@ -92,11 +96,11 @@ msgstr ""
 msgid "All Authors"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:32
+#: includes/class-wp-kitab-cpt.php:31
 msgid "All Books"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:141
+#: includes/class-wp-kitab-taxonomies.php:95
 msgid "All Categories"
 msgstr ""
 
@@ -104,23 +108,23 @@ msgstr ""
 msgid "All Cities"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:141
+msgid "All Genres"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:186
 msgid "All Languages"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:95
-msgid "All Main Categories"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:317
+#: includes/class-wp-kitab-taxonomies.php:321
 msgid "All Published Date"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:277
+#: includes/class-wp-kitab-taxonomies.php:283
 msgid "All Publishers"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:357
+#: includes/class-wp-kitab-taxonomies.php:359
 msgid "All Tags"
 msgstr ""
 
@@ -128,20 +132,24 @@ msgstr ""
 msgid "and others"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:348
+#: includes/class-wp-kitab-acf.php:343
 msgid "Attach the book file"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:371
+#: includes/class-wp-kitab-acf.php:370
 msgid "Attach the Cover"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:70 includes/class-wp-kitab-taxonomies.php:49
+#: includes/class-wp-kitab-acf.php:44 includes/class-wp-kitab-taxonomies.php:49
 msgid "Authors"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:62
-msgid "Back to authors"
+msgid "Back to Authors"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:108
+msgid "Back to Categories"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:244
@@ -149,18 +157,18 @@ msgid "Back to cities"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:153
-msgid "Back to genres"
+msgid "Back to Genres"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:198
 msgid "Back to languages"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:108
-msgid "Back to main categories"
+#: includes/class-wp-kitab-taxonomies.php:282
+msgid "Back to publishers"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:28 includes/class-wp-kitab-cpt.php:54
+#: includes/class-wp-kitab-cpt.php:28 includes/class-wp-kitab-cpt.php:53
 msgid "Book"
 msgstr ""
 
@@ -172,29 +180,32 @@ msgstr ""
 msgid "Book Attributes"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:16
-msgid "Book Custom Fields"
-msgstr ""
-
 #: includes/class-wp-kitab-cpt.php:27
 msgid "Books"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:49
+#: includes/class-wp-kitab-cpt.php:48
 msgid "Books list"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:50
+#: includes/class-wp-kitab-cpt.php:49
 msgid "Books list navigation"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:252 
-#: includes/class-wp-kitab-taxonomies.php:140
+#: includes/class-wp-kitab-taxonomies.php:102
 msgid "Categories"
 msgstr ""
 
+#: includes/class-wp-kitab-acf.php:222
+msgid "Category"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:60
-msgid "Choose from the most used authors"
+msgid "Choose from the most used Authors"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:106
+msgid "Choose from the most used Categories"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:242
@@ -202,30 +213,30 @@ msgid "Choose from the most used cities"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:151
-msgid "Choose from the most used genres"
+msgid "Choose from the most used Genres"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:196
 msgid "Choose from the most used languages"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:106
-msgid "Choose from the most used main categories"
+#: includes/class-wp-kitab-taxonomies.php:280
+msgid "Choose from the most used publishers"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:231
 msgid "Cities"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:98
+#: includes/class-wp-kitab-acf.php:74
 msgid "City"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:368
+#: includes/class-wp-kitab-acf.php:367
 msgid "Cover"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:396
+#: includes/class-wp-kitab-acf.php:399
 msgid "Description"
 msgstr ""
 
@@ -233,11 +244,11 @@ msgstr ""
 msgid "Edit Author"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:36
+#: includes/class-wp-kitab-cpt.php:35
 msgid "Edit Book"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:142
+#: includes/class-wp-kitab-taxonomies.php:96
 msgid "Edit Category"
 msgstr ""
 
@@ -245,19 +256,19 @@ msgstr ""
 msgid "Edit City"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:142
+msgid "Edit Genre"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:187
 msgid "Edit Language"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:96
-msgid "Edit Main Category"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:320
+#: includes/class-wp-kitab-taxonomies.php:322
 msgid "Edit Published Date"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:280
+#: includes/class-wp-kitab-taxonomies.php:284
 msgid "Edit Publisher"
 msgstr ""
 
@@ -265,36 +276,41 @@ msgstr ""
 msgid "Edit Tag"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:399
+#: includes/class-wp-kitab-acf.php:402
 msgid "Enter Book Description"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:322
+#: includes/class-wp-kitab-acf.php:315
 msgid "Enter book ISBN"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:205
+#: includes/class-wp-kitab-acf.php:197
 msgid "Enter the Page Count"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:49
+#: includes/class-wp-kitab-acf.php:19
 msgid "Enter the Title"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:179
+#: includes/class-wp-kitab-acf.php:167
 msgid "Enter the Volume"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:43
+#: includes/class-wp-kitab-cpt.php:42
 msgid "Featured Image"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:345
+#: includes/class-wp-kitab-acf.php:340
 msgid "File"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:51
+#: includes/class-wp-kitab-cpt.php:50
 msgid "Filter books list"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:252 
+#: includes/class-wp-kitab-taxonomies.php:140
+msgid "Genres"
 msgstr ""
 
 #. Author URI of the plugin
@@ -305,19 +321,15 @@ msgstr ""
 msgid "https://github.com/Ahrary/wp-kitab"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:304
-msgid "Industry Identifiers"
-msgstr ""
-
-#: includes/class-wp-kitab-cpt.php:47
+#: includes/class-wp-kitab-cpt.php:46
 msgid "Insert into book"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:319
+#: includes/class-wp-kitab-acf.php:312
 msgid "ISBN"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:278
+#: includes/class-wp-kitab-acf.php:282
 msgid "Language"
 msgstr ""
 
@@ -326,23 +338,15 @@ msgstr ""
 msgid "Languages"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:102
-msgid "Main Categories"
-msgstr ""
-
-#: includes/class-wp-kitab-acf.php:226
-msgid "Main Category"
-msgstr ""
-
 #: includes/class-wp-kitab-taxonomies.php:55
 msgid "New Author Name"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:35
+#: includes/class-wp-kitab-cpt.php:34
 msgid "New Book"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:146
+#: includes/class-wp-kitab-taxonomies.php:100
 msgid "New Category Name"
 msgstr ""
 
@@ -350,19 +354,19 @@ msgstr ""
 msgid "New City Name"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:146
+msgid "New Genre Name"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:191
 msgid "New Language Name"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:100
-msgid "New Main Category Name"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:323
+#: includes/class-wp-kitab-taxonomies.php:325
 msgid "New Published Date Name"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:283
+#: includes/class-wp-kitab-taxonomies.php:287
 msgid "New Publisher Name"
 msgstr ""
 
@@ -374,67 +378,43 @@ msgstr ""
 msgid "No authors found"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:107
+msgid "No Categories found"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:243
 msgid "No cities found"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:152
-msgid "No genres found"
+msgid "No Genres found"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:197
 msgid "No languages found"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:107
-msgid "No main categories found"
+#: includes/class-wp-kitab-taxonomies.php:281
+msgid "No publishers found"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:41
+#: includes/class-wp-kitab-cpt.php:40
 msgid "Not found"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:42
+#: includes/class-wp-kitab-cpt.php:41
 msgid "Not found in Trash"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:202
+#: includes/class-wp-kitab-acf.php:194
 msgid "Page Count"
-msgstr ""
-
-#: includes/class-wp-kitab-cpt.php:31
-msgid "Parent Book:"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:318
-msgid "Parent Published Date"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:319
-msgid "Parent Published Date:"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:278
-msgid "Parent Publisher"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:279
-msgid "Parent Publisher:"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:358
-msgid "Parent Tag"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:359
-msgid "Parent Tag:"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:57
 msgid "Popular Authors"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:148
+#: includes/class-wp-kitab-taxonomies.php:103
 msgid "Popular Categories"
 msgstr ""
 
@@ -442,12 +422,16 @@ msgstr ""
 msgid "Popular Cities"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:148
+msgid "Popular Genres"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:193
 msgid "Popular Languages"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:103
-msgid "Popular Main Categories"
+#: includes/class-wp-kitab-taxonomies.php:277
+msgid "Popular Publishers"
 msgstr ""
 
 #: includes/class-wp-kitab-cpt.php:25
@@ -460,20 +444,20 @@ msgctxt "Post Type Singular Name"
 msgid "Book"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:150 
-#: includes/class-wp-kitab-taxonomies.php:324
+#: includes/class-wp-kitab-acf.php:134 
+#: includes/class-wp-kitab-taxonomies.php:326
 msgid "Published Date"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:124
+#: includes/class-wp-kitab-acf.php:104
 msgid "Publisher"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:284
+#: includes/class-wp-kitab-taxonomies.php:288
 msgid "Publishers"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:45
+#: includes/class-wp-kitab-cpt.php:44
 msgid "Remove featured image"
 msgstr ""
 
@@ -481,11 +465,11 @@ msgstr ""
 msgid "Search Authors"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:40
+#: includes/class-wp-kitab-cpt.php:39
 msgid "Search Book"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:147
+#: includes/class-wp-kitab-taxonomies.php:101
 msgid "Search Categories"
 msgstr ""
 
@@ -493,15 +477,15 @@ msgstr ""
 msgid "Search Cities"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:147
+msgid "Search Genres"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:192
 msgid "Search Languages"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:101
-msgid "Search Main Categories"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:316
+#: includes/class-wp-kitab-taxonomies.php:320
 msgid "Search Published Date"
 msgstr ""
 
@@ -509,40 +493,44 @@ msgstr ""
 msgid "Search Publishers"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:356
+#: includes/class-wp-kitab-taxonomies.php:358
 msgid "Search Tags"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:73
+#: includes/class-wp-kitab-acf.php:47
 msgid "Select or add the Authors"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:255
-msgid "Select or add the Categories"
+#: includes/class-wp-kitab-acf.php:225
+msgid "Select or add the Category"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:101
+#: includes/class-wp-kitab-acf.php:77
 msgid "Select or add the City"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:281
+#: includes/class-wp-kitab-acf.php:255
+msgid "Select or add the Genres"
+msgstr ""
+
+#: includes/class-wp-kitab-acf.php:285
 msgid "Select or add the Language"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:229
-msgid "Select or add the Main Category"
-msgstr ""
-
-#: includes/class-wp-kitab-acf.php:153
+#: includes/class-wp-kitab-acf.php:137
 msgid "Select or add the Published Date"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:127
+#: includes/class-wp-kitab-acf.php:107
 msgid "Select or add the Publisher"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:58
-msgid "Separate authors with commas"
+msgid "Separate Authors with commas"
+msgstr ""
+
+#: includes/class-wp-kitab-taxonomies.php:104
+msgid "Separate Categories with commas"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:240
@@ -550,18 +538,18 @@ msgid "Separate cities with commas"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:149
-msgid "Separate genres with commas"
+msgid "Separate Genres with commas"
 msgstr ""
 
 #: includes/class-wp-kitab-taxonomies.php:194
 msgid "Separate languages with commas"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:104
-msgid "Separate main categories with commas"
+#: includes/class-wp-kitab-taxonomies.php:278
+msgid "Separate publishers with commas"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:44
+#: includes/class-wp-kitab-cpt.php:43
 msgid "Set featured image"
 msgstr ""
 
@@ -574,7 +562,7 @@ msgctxt "taxonomy general name"
 msgid "Authors"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:138
+#: includes/class-wp-kitab-taxonomies.php:93
 msgctxt "taxonomy general name"
 msgid "Categories"
 msgstr ""
@@ -584,17 +572,17 @@ msgctxt "taxonomy general name"
 msgid "Cities"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:138
+msgctxt "taxonomy general name"
+msgid "Genres"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:183
 msgctxt "taxonomy general name"
 msgid "Languages"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:93
-msgctxt "taxonomy general name"
-msgid "Main Categories"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:314
+#: includes/class-wp-kitab-taxonomies.php:318
 msgctxt "taxonomy general name"
 msgid "Published Date"
 msgstr ""
@@ -604,7 +592,7 @@ msgctxt "taxonomy general name"
 msgid "Publishers"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:354
+#: includes/class-wp-kitab-taxonomies.php:356
 msgctxt "taxonomy general name"
 msgid "Tags"
 msgstr ""
@@ -614,7 +602,7 @@ msgctxt "taxonomy singular name"
 msgid "Author"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:139
+#: includes/class-wp-kitab-taxonomies.php:94
 msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr ""
@@ -624,17 +612,17 @@ msgctxt "taxonomy singular name"
 msgid "City"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:139
+msgctxt "taxonomy singular name"
+msgid "Genre"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:184
 msgctxt "taxonomy singular name"
 msgid "Language"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:94
-msgctxt "taxonomy singular name"
-msgid "Main Category"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:315
+#: includes/class-wp-kitab-taxonomies.php:319
 msgctxt "taxonomy singular name"
 msgid "Published Date"
 msgstr ""
@@ -644,12 +632,12 @@ msgctxt "taxonomy singular name"
 msgid "Publisher"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:355
+#: includes/class-wp-kitab-taxonomies.php:357
 msgctxt "taxonomy singular name"
 msgid "Tag"
 msgstr ""
 
-#: includes/class-wp-kitab-acf.php:46
+#: includes/class-wp-kitab-acf.php:16
 msgid "Title"
 msgstr ""
 
@@ -657,11 +645,11 @@ msgstr ""
 msgid "Update Author"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:37
+#: includes/class-wp-kitab-cpt.php:36
 msgid "Update Book"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:144
+#: includes/class-wp-kitab-taxonomies.php:98
 msgid "Update Category"
 msgstr ""
 
@@ -669,19 +657,19 @@ msgstr ""
 msgid "Update City"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:144
+msgid "Update Genre"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:189
 msgid "Update Language"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:98
-msgid "Update Main Category"
-msgstr ""
-
-#: includes/class-wp-kitab-taxonomies.php:321
+#: includes/class-wp-kitab-taxonomies.php:323
 msgid "Update Published Date"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:281
+#: includes/class-wp-kitab-taxonomies.php:285
 msgid "Update Publisher"
 msgstr ""
 
@@ -689,11 +677,11 @@ msgstr ""
 msgid "Update Tag"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:48
+#: includes/class-wp-kitab-cpt.php:47
 msgid "Uploaded to this book"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:46
+#: includes/class-wp-kitab-cpt.php:45
 msgid "Use as featured image"
 msgstr ""
 
@@ -701,15 +689,15 @@ msgstr ""
 msgid "View Author"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:38
+#: includes/class-wp-kitab-cpt.php:37
 msgid "View Book"
 msgstr ""
 
-#: includes/class-wp-kitab-cpt.php:39
+#: includes/class-wp-kitab-cpt.php:38
 msgid "View Books"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:143
+#: includes/class-wp-kitab-taxonomies.php:97
 msgid "View Category"
 msgstr ""
 
@@ -717,20 +705,16 @@ msgstr ""
 msgid "View City"
 msgstr ""
 
+#: includes/class-wp-kitab-taxonomies.php:143
+msgid "View Genre"
+msgstr ""
+
 #: includes/class-wp-kitab-taxonomies.php:188
 msgid "View Language"
 msgstr ""
 
-#: includes/class-wp-kitab-taxonomies.php:97
-msgid "View Main Category"
-msgstr ""
-
-#: includes/class-wp-kitab-acf.php:176
+#: includes/class-wp-kitab-acf.php:164
 msgid "Volume"
-msgstr ""
-
-#: includes/class-wp-kitab-acf.php:31
-msgid "Volume Info"
 msgstr ""
 
 #. Name of the plugin
@@ -743,17 +727,17 @@ msgid ""
 "taxonomies to your wordpress website."
 msgstr ""
 
-#: wp-kitab.php:106
+#: wp-kitab.php:107
 #, php-format
 msgid "WP Kitab requires Advanced Custom Fields version %s or higher."
 msgstr ""
 
-#: wp-kitab.php:88
+#: wp-kitab.php:89
 #, php-format
 msgid "WP Kitab requires PHP version %s or higher."
 msgstr ""
 
-#: wp-kitab.php:97
+#: wp-kitab.php:98
 #, php-format
 msgid "WP Kitab requires WordPress version %s or higher."
 msgstr ""
