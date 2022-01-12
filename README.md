@@ -15,21 +15,19 @@ WP Kitab is a simple plugin that allows you to add book post type and taxonomies
 - Automatically update Book CPT `Excerpt` by `Book Description` ACF field
 - Automatically assign Book CPT `Featured image` by `Book Cover` ACF Image field
 - Translation ready
+- Shortcode's to display book details
 
 
 ### Registered ACF Fields for Book CPT
-- Book - Group Field
-    * Volume Info - Group Field
-        - Book Title - `title` ACF Text Field
-        - Book Author - `author` ACF Taxonomy Field
-    * Book Main Category - `main_category` ACF Taxonomy Field
-    * Book Categories - `categories` ACF Taxonomy Field
+    * Book Title - `title` ACF Text Field
+    * Book Author - `author` ACF Taxonomy Field
+    * Book Category - `category` ACF Taxonomy Field
+    * Book Genres - `genres` ACF Taxonomy Field
     * Book Language - `language` ACF Taxonomy Field
     * Book Publisher - `publisher`  ACF Taxonomy Field
     * Book City - `city` ACF Taxonomy Field
     * Book Published Date - `published_date` ACF Taxonomy Field
-    * Industry Identifiers - Group Field
-        - Book ISBN - `isbn` ACF Text Field
+    * Book ISBN - `isbn` ACF Text Field
     * Book Pages - `page_count` ACF Text Field
     * Book File - `file` ACF File Field
     * Book Cover - `cover` ACF Image Field
@@ -66,9 +64,16 @@ WP Kitab is a simple plugin that allows you to add book post type and taxonomies
 - Refactored code
 - Added translation for Russian language
 
+### v1.0.4
+- Added shortcode to display book details
+- Added shortcode to get book cover url
+- Added shortcode to display book author
+- Added shortcode for generating random color for book design purpose
+- Fixed translations
+
 ## License
 This plugin is licensed under the GPLv2 license.
 
 
 ## Author
-- [WP Kitab](https://github.com/Ahrary/wp-kitab)
+- [Ahrary](https://github.com/Ahrary)
