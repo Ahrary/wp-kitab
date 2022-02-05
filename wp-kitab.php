@@ -51,6 +51,7 @@ require_once AFZUNA_PLUGIN_DIR . 'includes/class-wp-kitab.php';
 require_once AFZUNA_PLUGIN_DIR . 'includes/class-wp-kitab-cpt.php';
 require_once AFZUNA_PLUGIN_DIR . 'includes/class-wp-kitab-taxonomies.php';
 require_once AFZUNA_PLUGIN_DIR . 'includes/class-wp-kitab-acf.php';
+// require_once AFZUNA_PLUGIN_DIR . 'includes/class-wp-kitab-shortcodes.php';
 require_once AFZUNA_PLUGIN_DIR . 'functions/functions.php';
 
 function wp_kitab_init()

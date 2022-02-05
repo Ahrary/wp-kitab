@@ -56,10 +56,10 @@ class WP_Kitab_CPT
 			'public' => true,
 			'publicly_queryable' => true,
 			'show_ui' => true,
-			'show_in_rest' => false,
-			'rest_base' => '',
+			'show_in_rest' => true,
+			'rest_base' => 'books',
 			'rest_controller_class' => 'WP_REST_Posts_Controller',
-			'has_archive' => 'books',
+			'has_archive' => false,
 			'show_in_menu' => true,
 			'show_in_nav_menus' => true,
 			'delete_with_user' => false,
@@ -76,7 +76,7 @@ class WP_Kitab_CPT
 			'yarpp_support' => true,
 			'show_in_graphql' => true,
 			'graphql_single_name' => 'Book',
-			'show_in_graphql' => 'Books',
+			'graphql_plural_name' => 'Books',
 		];
 		if (!post_type_exists('book')) {
 			register_post_type('book', $args);
